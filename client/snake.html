@@ -1,0 +1,31 @@
+<html>
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="http://aws.roblourens.com:8080/socket.io/socket.io.js"></script>
+<script src="shared/cs_module.js" type="text/javascript"></script>
+<script src="shared/utils.js" type="text/javascript"></script>
+<script src="shared/config.js" type="text/javascript"></script>
+<script src="shared/comm_names.js" type="text/javascript"></script>
+<script src="client/gridbox.js" type="text/javascript"></script>
+<script src="client/snake.js" type="text/javascript"></script>
+<script src="client/events.js" type="text/javascript"></script>
+<script src="client/snakegame.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="client/snake.css" type="text/css" />
+</head>
+
+<body>
+<div id="wrapper">
+    <header><h1>browser snake</h1></header>
+    <input type="button" id="join_button" value='I wish to do battle in the browser snake arena' disabled='disabled'/>
+    <div id="info_text">Connecting to game server...</div>
+    <canvas id="gameboard">Your browser doesn't support canvas.</canvas>
+    <div id="footer">
+        <span id="player_score_text">Your score: <span id="player_score">0</span></span>
+        <span id="opponent_score_text">Your opponent's score: <span id="opponent_score">0</span></span>
+    </div>
+    <div id="latency_text">Latency: <span id="latency">0</span></div>
+</div>
+</body>
+</html>

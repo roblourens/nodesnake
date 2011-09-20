@@ -1,0 +1,63 @@
+body {
+    background: rgb(237, 237, 236);
+}
+
+canvas {
+    border-style:solid;
+    border-width:1px;
+    border-color:gray;
+
+    background: white;
+}
+
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+body, #latency_text {
+    font-family:"Helvetica Neue", Helvetica, sans-serif;
+}
+
+header {
+    margin-top:1px;
+    text-align: center;
+}
+
+#footer {
+    padding-top:5px;
+}
+
+#player_score_text {
+    float: left;
+    padding-left: 20px;
+}
+
+#opponent_score_text {
+    float: right;
+    padding-right: 20px;
+}
+
+#score {
+    font-weight:bold;
+}
+
+#join_button {
+    width: 280px;
+    margin: 10px auto;
+    display: block;
+}
+
+#latency_text {
+    position: fixed;
+    bottom: 0px;
+    z-index: -1;
+}
+
+#info_text {
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 14px;
+    color: #AAA;
+}
